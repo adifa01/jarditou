@@ -1,0 +1,199 @@
+/*ceci est pour le menu*/
+.menu {
+    display: flex;
+    padding: 10;
+    background-color: rgb(175, 170, 170);
+    list-style-type: none;
+    justify-content: first baseline;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+
+.ul {
+    list-style-type: none;
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(175, 170, 170);
+}
+.ul a{ 
+    margin: 0.5rem;
+    padding: 0.5rem 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu a {
+    display: block;
+    min-width: 120px;
+
+    margin: 0.5rem;
+    padding: 0.2rem;
+    text-align: center;
+    background-color: #1abc9c;
+    color: black;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.menu a.actif {
+    background-color: #1abc9c;
+    color: #02130f;
+    border-color: bisque
+}
+
+.menu a:hover,
+.menu a:hover.actif {
+    background-color: #ed2794;
+    color: #ffe843;
+    border-color: #ffe843;
+}
+
+
+
+/*ceci est pour le positionnement*/
+.position {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 80%;
+    margin: 50px;
+    text-align: center;
+    text-shadow: 5px 5px 3px rgb(32, 177, 12);
+    color: blue;
+}
+
+
+body {
+    background: url(../img/fleur.jpg);
+}
+/*pop est pour la couleur de la h2 dans tableau*/
+.pop {
+    width: 100%;
+}
+
+.pop {
+    color: rgb(76, 0, 255);
+    text-align: center;
+}
+
+/*ceci concerne les boites*/
+#leflex1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#DIVsection1 {
+    width: 80%;
+}
+
+#DIVaside1 {
+    background-color: grey;
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p,
+h1,
+h2,
+h3 {
+    margin: 10px;
+}
+
+
+@media screen and (max-width:768px) {
+
+    #DIVaside1 {
+        display: none;
+    }
+
+    #DIVsection1 {
+        width: 100%;
+    }
+
+    #txtheader {
+        display: none;
+    }
+
+    #txt2header {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    h2, {
+        font-size: 14px;
+    }
+
+}
+
+
+#promo {
+    width: 100%
+}
+
+p {
+    width: "300px";
+    clear: left;
+    padding: 4px 0 8px O;
+    padding-left: 120px;
+    height: 1%;
+}
+
+label {
+    font-weight: bold;
+    margin: 0px
+    ;
+}
+
+
+input {
+    margin: 0.3rem;
+
+}
+table{
+    width: 40%;
+    text-align: center;
+    
+}
+th, td{
+    border: solid 2px rgb(69, 117, 69);
+}
+thead{
+    background-color: #bdb57e;
+}
+
+#sidebar{
+    float: right;
+    width: 400px;
+    height: 50px;
+}
+#content{
+    float: right;
+    width: 400px;
+    height: 750px;
+    background: rgb(145, 150, 146)
+}
+#header{
+    padding: 10px;
+    margin: 0px ;
+}
+

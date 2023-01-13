@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JARDITOUT</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header><img src="assets/img/jarditou_html_zip/images/jarditou_logo.jpg" alt="jarditou_logo" title="jarditout" width="20%"><br>
+        <p id="txtheader" class="position"> TOUT LE JARDIN</p>
+        <h3 id="txt2header">La qualité depuis 70 ans</h3>
+    </header>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="tableau.html">Tableau</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul> 
+    </nav>
+    </header>
+    <img id="promo" src="assets/img/jarditou_html_zip/images/promotion.jpg" alt="jarditou_logo" title="jarditout"><br>
+    <p>
+    <form action="destination.php" method="post" id="formulaire_contact"></form>
+    </p>
+    <body>
+            <h2>Contact</h2>
+        <form action="destination.php" method="post" id="formulaire contact">
+        </form>
+        <hr>
+        <h4>* Ces zones sont obligatoires</h4>
+        
+            <fieldset> 
+                <legend>Vos coordonnées</legend>
+            <p><laber for="user">Nom :</laber>
+            <input type="text" id="user" value="" /></p>
+            <p><label for="user">Prénom : </label>
+            <input type="text" id="user" value="" /></p>
+            <p><label for="comments">Sexe :</label>
+            Homme :<input type="radio" name="sex" />
+            Femme :<input type="radio" name="sex" /></p>
+            <p><label for="user">Date de naissance :</label>
+            <input type="date" id="user"  value="" /></p>
+            <p><label for="user">Code postal :</label>
+            <input type="text" id="user"  value="" /></p>
+            <p><label for="user">Adresse :</label>
+            <input type="text" id="user"  value="" /></p>
+            <p><label for="user">Ville :</label>
+            <input type="text" id="user" value="" /></p>
+            <p><label for="emailaddress">Email :</label>
+            <input type="text" id="emailaddress" size="20" maxlength="50" value="dave.loper@afpa.fr" /></p>
+            </fieldset><br>
+            
+            <fieldset>
+            <legend>Votre demande</legend>
+            <label for="nom"> Sujet :</label>
+            <select name="sujet">
+                <option value="Veuillez séléctionner un sujet">Veuillez séléctionner un sujet</option>
+                <option value="Mes commandes">Mes commandes</option>
+                <option value="Questions sur un produit">Questions sur un produit</option>
+                <option value="Réclammation">Réclammation</option>
+                <option value="Autres">Autres</option>
+            </select><br>
+            <p><label for="comments">Message :</label>
+            <textarea id="comments" rows="7" cols="25"></textarea> </p>
+    
+        <label><input type="checkbox" name="nom"> J'accepte les conditions d'utilisation</label><br>
+        <p>
+            <div style="margin-left: 250px;">
+            <input type="submit" value="Envoyer" />
+            <input type="reset" value="Annuler" />
+        </div>
+    </p>
+        </fieldset>
+        <br>
+        <hr>
+        <footer>
+            <nav>
+                <ul class="ul">
+                    <li><a href="#Mention légales">Mention</a></li>
+                    <li><a href="#Horaire">Horaire</a></li>
+                    <li><a href="#Plan du site">Plan du site</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+    </html>
